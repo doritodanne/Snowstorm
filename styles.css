@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: rgb(242, 250, 255);
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: rgb(242, 250, 255);
+    text-decoration: none;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(49, 51, 53);
+    height: 12vh;
+}
+
+.logo {
+cursor: pointer;
+margin: 20px;
+height: 30px;
+width: auto;
+}
+
+.links {
+    list-style: none;
+}
+
+.links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.links li a:hover {
+    color: rgb(166, 219, 255);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(61, 178, 255, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: rgba(61, 178, 255, 0.8);
+}
+
+img {
+    display: grid;
+    height: 65vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 25%;
+    margin: auto;
+}
+
+.intro {
+    width: auto;
+    height: 7vh;
+    margin-top: 8vh;
+}
+
+.introdiv {
+    background-color: rgb(255, 255, 255);
+    height: 13vh;
+}
