@@ -38,8 +38,6 @@ header{
 .logo {
 cursor: pointer;
 margin: 20px;
-height: 30px;
-width: auto;
 }
 
 .links {
@@ -59,7 +57,7 @@ width: auto;
     color: rgb(166, 219, 255);
 }
 
-button {
+.cta {
     padding: 9px 25px;
     background-color: rgb(61, 178, 255, 1);
     border: none;
@@ -69,7 +67,7 @@ button {
     margin: 20px;
 }
 
-button:hover {
+.cta:hover {
     background-color: rgba(61, 178, 255, 0.8);
 }
 
